@@ -1,0 +1,175 @@
+@import url(reset.css);
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.first {
+    background: rgb(221, 221, 162);
+    font-size: 0;
+}
+
+.first div,
+.second div,
+.third div {
+    outline: 2px solid rgb(36, 13, 13);
+    text-align: center;
+}
+
+.first>div {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;
+}
+
+.second {
+    background: rgb(117, 117, 241);
+    font-size: 0;
+}
+
+.second>div {
+    display: inline-block;
+    width: 800px;
+    font-size: 20px;
+    vertical-align: top;
+}
+
+.second>div>div {
+    height: 200px;
+}
+
+.second>div+div {
+    width: 400px;
+}
+
+.second>div+div>div {
+    height: 133px;
+}
+
+.third {
+    background: plum;
+    font-size: 0;
+}
+
+.third>div {
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;
+    height: 400px;
+}
+
+.third-one {
+    width: 400px;
+}
+
+.third-two {
+    width: 800px;
+}
+
+.third-three {
+    height: 200px;
+}
+
+.box {
+    font-size: 0;
+}
+
+.box>div {
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;
+    width: 400px;
+    height: 200px;
+}
+
+.box>div>div {
+    height: 100px;
+}
+
+
+/* FLOAT */
+
+.clr {
+    clear: both;
+}
+
+.first-float {
+    background: mediumturquoise;
+}
+
+.first-float div,
+.second-float div,
+.third-float div {
+    outline: 2px solid slateblue;
+    text-align: justify;
+}
+
+.first-float-child {
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+
+.second-float {
+    background: rgb(173, 119, 173);
+    height: 400px;
+}
+
+.second-float>div {
+    float: left;
+    width: 800px;
+}
+
+.second-float>div>.child {
+    height: 200px;
+}
+
+.second-float>div+div {
+    width: 400px;
+}
+
+.second-float>div+div>.child-one {
+    height: 133px;
+}
+
+.third-float {
+    background: wheat;
+    height: 400px;
+}
+
+.third-float>.third-float-one,.third-float-two {
+    float: left;
+}
+
+.third-float-one {
+    width: 400px;
+    height: 400px;
+}
+
+.third-float-two {
+    width: 800px;
+    height: 400px;
+}
+.third-float-three {
+    width: 800px;
+    height: 200px;
+}
+
+.box {
+    width: 800px;
+    height: 200px;
+}
+
+.box>div {
+    float: left;
+    width: 400px;
+    height: 200px;
+}
+
+.box>div>div {
+    height: 100px;
+}
+
