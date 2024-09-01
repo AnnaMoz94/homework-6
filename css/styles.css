@@ -105,6 +105,7 @@
 .third-float div {
     outline: 2px solid slateblue;
     text-align: justify;
+    font-size: 15px;
 }
 
 .first-float-child {
@@ -153,11 +154,7 @@
     width: 800px;
     height: 400px;
 }
-.third-float-three {
-    width: 800px;
-    height: 200px;
-}
-
+.third-float-three,
 .box {
     width: 800px;
     height: 200px;
@@ -173,3 +170,69 @@
     height: 100px;
 }
 
+/* Flex */
+
+.flex-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-first, 
+.flex-second, 
+.flex-third {
+    height: 400px;
+    display: flex;
+}
+
+.flex-first div,
+.flex-second div,
+.flex-third div {
+    outline: 2px solid rgb(36, 13, 13);
+    text-align: center;
+}
+
+.flex-first {
+    background: rgb(221, 221, 162);
+}
+
+.flex-second {
+    background: rgb(117, 117, 241);
+}
+
+.flex-second>div, 
+.flex-third-two {
+    width: 800px;
+}
+
+.flex-second>div>div {
+    height: 200px;
+}
+
+.flex-second>div+div,
+.flex-third-one {
+    width: 400px;
+}
+
+.flex-second>div+div>div {
+    height: 133px;
+}
+
+.flex-third {
+    background: plum;
+}
+
+.flex-third-three {
+    height: 200px;
+}
+
+.flex-box {
+    display: flex;
+}
+.flex-box>div {
+    width: 400px;
+    height: 200px;
+}
+
+.flex-box>div>div {
+    height: 100px;
+}
